@@ -16,12 +16,22 @@
 // improve this
 // 100 : 100
 // print sum of all integers upto: n 
+// 10^9 -> 10^9 O(N) linear complexity
+// function printFactors(n) {
+//     for (var i = 1; i <= n; i++) {
+//         if (n % i === 0) {
+//             console.log(i);
+//         }
+//     }
+// }
 function printFactors(n) {
-    for (var i = 1; i <= n; i++) {
+    var upper = parseInt(Math.sqrt(n));
+    for (var i = 1; i <= upper; i++) {
         if (n % i === 0) {
-            console.log(i);
+            console.log(i, n / i);
         }
     }
 }
 
-printFactors(16);
+var res = printFactors(20);
+console.log(res);
