@@ -15,10 +15,10 @@ var mobile = {
     }
 };
 
+
 // shallow cloning
 // deep cloning
 // refactoring
-
 function cloneArr(arr) {
     for (var i = 0; i < arr.length; i++) {
         if (typeof arr[i] === 'object') {
@@ -48,3 +48,12 @@ var m2 = clone(mobile);
 m2.features.call = false;
 console.log(m2.arr, mobile.arr);
 
+// installation (NodeJS, Code, Git)
+// console.log
+// variables & data types (number, string, boolean, undefined, function, object)
+// operators: arithmatic, logical, conditional, bitwise, unary, ternary, =, typeof, new
+// conversions (number to string)
+// conditional statements
+// loops, for while, do-while, for-in
+// truthy & falsy
+// objects: literals, constructors
