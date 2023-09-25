@@ -3,7 +3,10 @@
 // data structure
 /*  
    amazon.com
-
+   ES6
+   async
+   design patterns
+   NodeJS
    [
     {id:'abc123',brand:'Apple',name:'Iphone 13 Pro Max 128',price: 12332,discount:10,
         reviews:[{},{},{}]},
@@ -24,5 +27,17 @@ var contact1 = {
     active: true
 };
 
-var contacts = [contact1,{},{},{}];
-console.log(contact1.mobile)
+// var contacts = [contact1,{},{},{}];
+// console.log(contact1.mobile)
+
+// var student1 = {
+//     firstName: 'fName',
+//     lasName: 'lName',
+//     studentId: 1,
+//     getHostelId: function () {
+//         return this.lastName + this.studentId;
+//     },
+//     getId: 1 + 1
+// }
+
+// console.log(student1)
