@@ -1,14 +1,18 @@
-var arr = [1, 2, 3, 4, 5, 6];
+// map,filter, reduce
+const arr = [1, 2, 3, 4, 5];
 
-// var employees = [
-//     { name: 'abc', salary: 1000 },
-//     { name: 'abc', salary: 2000 },
-//     { name: 'abc', salary: 5000 }
-// ];
+// const res = [];
+// for (let i = 0; i < arr.length; i++) {
+//     res.push(arr[i] * 2);
+// }
 
-function transform(elem) {
-    return elem * 2;
+
+function times3(elem) {
+    return elem * 3;
 }
 
-var res = arr.map(transform);
-console.log(res);
+const res = arr.map(elem => elem * 2);
+const res2 = arr.map(elem => elem * 3);
+
+console.log(arr, res, res2);
+
