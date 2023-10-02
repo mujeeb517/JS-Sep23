@@ -40,4 +40,10 @@ var contact1 = {
 //     getId: 1 + 1
 // }
 
-// console.log(student1)
+// // hoisting
+// function fn() {
+//     
+//     var x = 10;
+// }
+
+// fn();
