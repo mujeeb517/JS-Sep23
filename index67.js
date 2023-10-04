@@ -1,5 +1,4 @@
 // sequential execution
-
 function addAsync(a, b, cb) {
     setTimeout(function () {
         var c = a + b;
